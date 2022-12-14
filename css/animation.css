@@ -1,0 +1,20 @@
+.animation-hover-underline {
+    display: inline-block;
+    position: relative;
+}
+.animation-hover-underline::after {
+    background: lightcoral;
+    bottom: 0;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform .2s ease-out;
+    width: 100%;
+}
+.animation-hover-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

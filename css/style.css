@@ -1,0 +1,149 @@
+.forum-header {
+    background: #3af;
+    box-shadow: #777 0 1px 5px;
+    color: #fff;
+    padding: 30px 5% 15px 5%;
+    width: 100%;
+}
+
+pre {
+    font-family: system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';
+}
+
+.forum-title {
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 25px;
+    width: fit-content;
+}
+
+.forum-nav {
+    font-size: 1em;
+}
+.forum-nav>div {
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.forum-main {
+    margin: 30px auto;
+    width: 90%;
+}
+
+.forum-block {
+    border: #3af solid 2px;
+    border-radius: 5px;
+    box-shadow: #777 1px 1px 5px;
+    margin: 20px;
+    padding: 10px;
+    transition: all .2s;
+}
+.forum-block:hover {
+    box-shadow: #777 1px 1px 10px;
+}
+.forum-block-user>div>h2 {
+    margin: 0
+}
+
+.forum-section {
+    width: 70%;
+}
+.forum-section-title, .forum-thread-title {
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 1px;
+    width: fit-content;
+}
+.forum-section-hr {
+    border: none;
+    border-top: #ccc dashed 3px;
+    width: 100%;
+}
+
+.forum-sidebar {
+    width: 20%;
+}
+
+.forum-footer {
+    background: #3af;
+    box-shadow: #777 0 -1px 5px;
+    color: #fff;
+    padding: 40px 5%;
+    width: 100%;
+}
+.forum-footer>div {
+    margin-bottom: 10px;
+}
+
+.login-input {
+    border: 3px solid lightgray;
+    margin: 10px auto;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    transition: border .2s;
+}
+.login-input:focus {
+    border: 3px solid gray;
+}
+
+.login-submit, .logout-submit {
+    background: white;
+    border: 2px solid #3af;
+    border-radius: 10px;
+    color:black;
+    cursor: pointer;
+    margin: 10px auto;
+    padding: 5px 10px;
+    transition: all .2s;
+}
+.login-warn {
+    color: red;
+}
+.login-submit:hover, .logout-submit:hover {
+    background: #3af;
+    color: white;
+}
+
+.btn {
+    background: white;
+    border: 2px solid #3af;
+    border-radius: 10px;
+    color:black;
+    cursor: pointer;
+    margin: 10px auto;
+    padding: 5px 10px;
+    transition: all .2s;
+}
+.btn:hover {
+    background: #3af;
+    color: white;
+}
+
+.forum-thread-hr {
+    border: none;
+    border-top: #ccc dashed 2px;
+    width: 100%;
+}
+.thread-tag {
+    color: gray;
+    font-size: small;
+}
+
+.thread-delete-btn {
+    text-decoration: none;
+    color: #3af;
+}
+.thread-delete-btn:hover {
+    color: #f33;
+}
+
+.op-btn {
+    text-decoration: none;
+    color: #3af;
+}
+.op-btn:hover {
+    color: #f33;
+}
